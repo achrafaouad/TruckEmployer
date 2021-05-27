@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1002592154859",
+    "project_id": "toolbar-9af37",
+    "storage_bucket": "toolbar-9af37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002592154859:android:362085efe10f7e42a43aae",
+        "android_client_info": {
+          "package_name": "ensa.application01.toolbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002592154859-ldjg3ubp8o3jbqgkkt3cj9jdp16urmak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Jz96EPZbhF-Ezq76dHUa0oNtD0SLEJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002592154859-ldjg3ubp8o3jbqgkkt3cj9jdp16urmak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

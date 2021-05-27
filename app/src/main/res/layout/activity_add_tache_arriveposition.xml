@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroun_add_user">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/lefticon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:src="@drawable/ic_baseline_arrow_back_24"></ImageView>
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="ADD MISSION"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+        <View
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/horizontal_line"
+            android:layout_marginTop="80dp"></View>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/mission_layout">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="MISSION"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:background="@drawable/mission"
+            />
+
+        <EditText
+            android:id="@+id/tache"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:drawableStart="@drawable/work"
+            android:drawablePadding="12dp"
+            android:paddingTop="5dp"
+            android:hint="Mission"
+            android:paddingBottom="5dp"
+            android:textColorHint="@color/teal_200"
+            android:textColor="@color/teal_200"
+            android:textSize="14dp"
+            android:textStyle="bold|italic"
+            android:background="@drawable/add_mission_arriveposition"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/mission_layout">
+
+
+        <TextView
+            android:id="@+id/textevii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="DESTINATION"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:background="@drawable/mission"/>
+
+        <EditText
+            android:id="@+id/arrive_position"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textevii"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:hint="Place"
+            android:drawableStart="@drawable/location_misiion"
+            android:drawablePadding="12dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColorHint="@color/teal_200"
+            android:textColor="@color/teal_200"
+            android:textSize="14dp"
+            android:textStyle="bold|italic"
+            android:background="@drawable/add_mission_arriveposition"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp">
+
+        <Button
+            android:text="ADD MISSION"
+            android:id="@+id/add_mission"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textSize="20dp"
+            android:textColor="@color/teal_200"
+            android:textColorHint="@color/white"
+            android:textStyle="bold"></Button>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

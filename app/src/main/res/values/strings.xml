@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TrackEmloyer</string>
+    <string name="phone">Phone Number</string>
+    <string name="Email">Email</string>
+    <string name="First_Name">First Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="Start_Date">Start Date</string>
+    <string name="Finish_Date">Finish Date</string>
+    <string name="Start_Place">Start Place</string>
+    <string name="Finish_Place">Finish Place</string>
+</resources>
